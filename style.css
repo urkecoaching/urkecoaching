@@ -1,0 +1,176 @@
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #f7e8d4; /* Light warm cream */
+    color: #744425; /* Darker warm brown */
+    text-align: center;
+    padding: 0;
+}
+
+header {
+    background-color: #964d22; /* Rich dark brown */
+    color: #fff;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+.about, .pricing, .ratings, .contact {
+    padding: 50px;
+    background-color: #f7e8d4; /* Light warm cream */
+}
+
+.about h2, .pricing h2, .ratings h2, .contact h2 {
+    font-size: 2.5em;
+    color: #3b2f2f; /* Darker warm brown */
+}
+
+.achievements {
+    margin: 30px 0;
+}
+
+.achievement-box {
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.gold {
+    background-color: #FFD700; /* Gold */
+}
+
+.silver {
+    background-color: #C0C0C0; /* Silver */
+}
+
+.bronze {
+    background-color: #cd7f32; /* Bronze */
+}
+
+.coach-image {
+    width: 60%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.rating-box {
+    background-color: #fadab1; /* Tan */
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    color: #3b2f2f; /* Darker brown */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rating-box:hover {
+    transform: scale(1.05); /* Povećava boks za 5% */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Dodaje senku */
+}
+
+.achievement-box:hover {
+    transform: scale(1.05); /* Povećava boks za 5% */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Dodaje senku */
+}
+
+.contact-button {
+    padding: 15px 30px;
+    background-color: #964d22; /* Rich dark brown */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #964d22; /* Even darker brown */
+    transform: scale(1.45); /* Povećava boks za 5% */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Dodaje senku */
+    text-decoration: none;
+    color: #f7e8d4;
+}
+
+footer {
+    background-color: #72320e; /* Dark brown */
+    color: #fff;
+    padding: 10px;
+    font-size: 0.9em;
+}
+.bottom-image{
+    object-fit: cover;
+}
+.rating-box img{
+    width:100px;
+    height: 100px;
+}
+#blic{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+#rapid{
+    width:60px;
+    height: 80px;
+    margin-top: 10px;
+}
+.col-md-6{
+    display: inline-block;
+    margin: 10px;
+}
+.col-md-6 img{
+    width: 500px;
+    height: 300px;
+    margin-left:30%;
+}
+.menu{
+    list-style-type:none;
+    font-size: 20px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.menu-item li{
+    display: inline-block;
+}
+.menu li{
+    display: inline-block;
+    color: #fff;
+    margin: 25px;
+    font-size: 30px;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #f7e8d4;
+    transform: scale(1.2);
+    text-decoration: none;
+}
+#first-image{
+    background-image: url(images.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.about{
+    margin: 100px;
+}
+.header{
+    background-color: #72320e;
+}
+#text-01{
+    margin-left: 30%;
+    margin-right: 30%;
+}
