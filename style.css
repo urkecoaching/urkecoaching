@@ -159,18 +159,32 @@ a:hover{
     transform: scale(1.2);
     text-decoration: none;
 }
-#first-image{
-    background-image: url(images.jpg);
+.about-uros .about{
+    background-image: url(17623.87bb05cd.5000x5000o.bf0a4fe546cb.jpeg);
     background-repeat:no-repeat;
     background-size: cover;
+    margin: 0;
 }
 .about{
     margin: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
 }
 .header{
-    background-color: #72320e;
+    background-color: #f7e8d4;
 }
 #text-01{
     margin-left: 30%;
     margin-right: 30%;
+}
+.about-urke{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
 }
